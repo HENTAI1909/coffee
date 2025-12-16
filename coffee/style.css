@@ -660,6 +660,886 @@ ul li a {
     font-size: 18px;
     width: 19vw;
 }
-@media (min-width:320px) and (max-width:750px){
-    
+@media (min-width:809px) and (max-width:810px){
+    header{
+        width:90vw;
+        height:8vh;
+        margin:0 auto;
+    }
+    nav .krasivo{
+        font-size:2.5em;
+    }
+    ul{
+        width:50%;
+        font-size:0.9em;
+        gap:15px;
+    }
+    .inup{
+        gap:15px;
+        font-size:0.85em;
+    }
+    .inup button{
+        width:80px;
+        height:36px;
+        font-size:0.8em;
+    }
+    .menu{
+        height:70vh;
+        background-position:center;
+    }
+    .left{
+        width:90vw;
+        height:50vh;
+        justify-content:flex-start;
+        padding-top:50px;
+    }
+    .weve{
+        width:60vw;
+        height:auto;
+        margin-top:5%;
+        margin-left:5%;
+    }
+    .weve h1{
+        width:100%;
+        font-size:5.5em;
+        line-height:1.1;
+    }
+    .weve p{
+        font-size:1.2em;
+        margin:15px 0;
+    }
+    .weve button{
+        width:150px;
+        height:48px;
+        font-size:1em;
+        margin-top:20px;
+    }
+    .beancof{
+        flex-direction:column;
+        margin-top:50px;
+        padding:40px 20px;
+        gap:30px;
+        height:auto;
+    }
+    .coffe{
+        width:100%;
+        height:auto;
+        text-align:center;
+        align-items:center;
+    }
+    .coffe h1{
+        font-size:2.5em;
+        width:80vw;
+        height:auto;
+        margin:0 auto;
+    }
+    .coffe p{
+        font-size:1.3em;
+        width:80vw;
+        height:auto;
+        margin:15px auto;
+        line-height:1.5;
+    }
+    .coffe button{
+        width:150px;
+        height:48px;
+        font-size:1em;
+        margin:10px auto;
+        display:block;
+    }
+    .cup{
+        width:100%;
+        height:auto;
+        display:flex;
+        justify-content:center;
+    }
+    .cup img{
+        width:350px;
+        height:350px;
+    }
+    .vspleskp{
+        display:none;
+    }
+    .enjoy{
+        height:auto;
+        margin-top:50px;
+        padding-bottom:30px;
+    }
+    .texh h1{
+        font-size:2.8em;
+        height:auto;
+        padding:20px;
+        text-align:center;
+    }
+    .texh p{
+        font-size:1.3em;
+        padding:0 20px 20px;
+        text-align:center;
+    }
+    .fotocof{
+        flex-wrap:wrap;
+        padding:20px;
+        gap:20px;
+        justify-content:center;
+        height:auto;
+    }
+    .tabl{
+        flex-wrap:wrap;
+        gap:20px;
+        height:auto;
+        justify-content:center;
+    }
+    .lovecoff,.vesny,.coffeeee,.expresso{
+        width:45%;
+        height:350px;
+        margin-bottom:20px;
+    }
+    .fotocof h1{
+        font-size:1.4em;
+        width:100%;
+    }
+    .fotocof h2{
+        font-size:1em;
+        width:100%;
+    }
+    .fotocof p{
+        font-size:1em;
+        width:100%;
+    }
+    .fotocof button{
+        width:120px;
+        height:40px;
+        font-size:0.9em;
+        left:50%;
+        margin-left:-60px;
+        top:15px;
+    }
+    .vspleskl{
+        display:none;
+    }
+    .arew h1{
+        font-size:2.8em;
+        height:auto;
+        padding:20px;
+        text-align:center;
+    }
+    .arew p{
+        font-size:1.3em;
+        padding:0 20px 20px;
+        text-align:center;
+    }
+    .tabl2{
+        height:auto;
+        flex-wrap:wrap;
+        padding:30px 20px 0;
+        gap:20px;
+        justify-content:center;
+    }
+    .obman{
+        flex-wrap:wrap;
+        gap:20px;
+        height:auto;
+        justify-content:center;
+    }
+    .first,.medal,.cup1,.likeb{
+        width:45%;
+        height:250px;
+    }
+    .tabl2 h1{
+        font-size:1.4em;
+        width:100%;
+        text-align:center;
+    }
+    .tabl2 p{
+        font-size:1em;
+        width:80%;
+        text-align:center;
+        margin:0 auto;
+    }
+    .idea{
+        margin-top:30px;
+        height:auto;
+    }
+    .greatf h1{
+        font-size:2em;
+        height:auto;
+        padding:15px;
+        text-align:center;
+    }
+    .greatf p{
+        font-size:1.2em;
+        padding:0 15px;
+        text-align:center;
+    }
+    .greatf button{
+        width:140px;
+        height:44px;
+        font-size:0.95em;
+        margin:0 auto;
+        display:block;
+    }
+    .beanfon{
+        margin-top:50px;
+        height:auto;
+        padding:40px 20px;
+    }
+    .cont{
+        flex-direction:column;
+        align-items:center;
+    }
+    .tohave{
+        width:90%;
+        height:auto;
+        margin:20px auto;
+        text-align:center;
+        align-items:center;
+    }
+    .chan{
+        width:100%;
+        height:auto;
+    }
+    .chan h1{
+        width:100%;
+        font-size:2.2em;
+        height:auto;
+        margin-bottom:15px;
+        text-align:center;
+    }
+    .giv p{
+        width:100%;
+        font-size:1.2em;
+        height:auto;
+        margin-bottom:20px;
+        text-align:center;
+    }
+    .tohave button{
+        width:140px;
+        height:44px;
+        font-size:0.95em;
+    }
+    .cukp,.cja{
+        display:none;
+    }
+    .ourcof{
+        height:auto;
+        padding:40px 20px;
+    }
+    .rep{
+        height:auto;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        padding:0 15px 20px;
+    }
+    .rep h1{
+        font-size:2.5em;
+        margin-bottom:10px;
+    }
+    .rep p{
+        font-size:1.1em;
+        margin-top:10px;
+    }
+    .mlo{
+        width:90vw;
+        margin:0 auto 30px;
+        display:flex;
+        justify-content:center;
+    }
+    .Lorem{
+        width:80vw;
+        height:auto;
+        padding:25px 20px 40px;
+        text-align:center;
+    }
+    .lpoq{
+        width:90%;
+        height:auto;
+    }
+    .Lorem p{
+        font-size:1em;
+        line-height:1.6;
+    }
+    .Lorem h1{
+        font-size:1.5em;
+        height:auto;
+        margin-top:15px;
+    }
+    .Lorem h2{
+        font-size:1em;
+    }
+    .Lorem h3{
+        font-size:3.5em;
+        right:25vw;
+        top:3vh;
+    }
+    .knopka{
+        left:5vw;
+        width:60px;
+        height:60px;
+    }
+    .knopka2{
+        left:80vw;
+        width:60px;
+        height:60px;
+    }
+    .subscribe{
+        height:auto;
+        padding:40px 20px;
+        display:flex;
+        justify-content:center;
+    }
+    .sub{
+        width:95vw;
+        height:auto;
+        padding:20px;
+    }
+    .ribe h1{
+        font-size:2.5em;
+        height:auto;
+        text-align:center;
+        margin-bottom:15px;
+    }
+    .ribe p{
+        font-size:1.1em;
+        height:auto;
+        text-align:center;
+        margin-bottom:20px;
+    }
+    .entere{
+        height:auto;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+    .entere .ent{
+        width:90%;
+        height:50px;
+        font-size:1em;
+        padding-left:15px;
+    }
+    .entere .subsa{
+        width:90%;
+        height:50px;
+        font-size:1.1em;
+        margin-top:10px;
+        left:auto;
+        position:static;
+    }
+    .pnw{
+        display:none;
+    }
+    .beae{
+        height:auto;
+        padding:40px 20px;
+    }
+    .gho{
+        width:95vw;
+    }
+    .aweq{
+        width:90vw;
+        flex-wrap:wrap;
+        margin-top:0;
+        gap:30px;
+        justify-content:center;
+    }
+    .btop{
+        width:45%;
+        height:auto;
+        align-items:center;
+        text-align:center;
+    }
+    .btop h1{
+        font-size:2.8em;
+        height:auto;
+    }
+    .btop p{
+        font-size:0.9em;
+        height:auto;
+        line-height:1.5;
+    }
+    .About,.Company,.Contact_Us{
+        width:45%;
+        height:auto;
+        line-height:1.5;
+        text-align:center;
+    }
+    .About h2,.Company h2,.Contact_Us h2{
+        font-size:1.3em;
+        height:auto;
+    }
+    .About p,.Company p,.Contact_Us p{
+        font-size:0.9em;
+    }
+    .Contact_Us p{
+        width:100%;
+    }
+}
+@media (min-width: 380px) and (max-width: 390px) {
+    .menu {
+        height: 70vh;
+        background-position: center;
+    }
+    header {
+        width: 95vw;
+        height: auto;
+        padding: 15px 0;
+    }
+    nav {
+        flex-direction: column;
+        gap: 165px;
+        height: auto;
+        padding: 0 10px;
+    }
+    nav .krasivo {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    ul {
+        display: none;
+    }
+    .inup {
+        gap: 10px;
+        font-size: 0.75em;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .inup button {
+        width: 80px;
+        height: 35px;
+        font-size: 0.75em;
+    }
+    .left {
+        width: 100%;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .weve {
+        width: 90vw;
+        height: auto;
+        margin-top: 15%;
+        font-size: 0.8em;
+        align-items: center;
+        text-align: center;
+    }
+    .weve h1 {
+        width: 100%;
+        font-size: 4em;
+        line-height: 1;
+    }
+    .weve p {
+        font-size: 0.95em;
+        margin-top: 10px;
+    }
+    .weve button {
+        width: 140px;
+        height: 40px;
+        font-size: 1.4em;
+        margin-top: 15px;
+        padding: 0 15px;
+    }
+    .beancof {
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 15%;
+        gap: 20px;
+        height: auto;
+    }
+    .coffe {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .coffe h1 {
+        font-size: 1.8em;
+        width: 90vw;
+        height: auto;
+        margin: 0 auto;
+    }
+    .coffe p {
+        font-size: 1em;
+        width: 90vw;
+        height: auto;
+        margin: 15px auto;
+        line-height: 1.4;
+    }
+    .coffe button {
+        width: 140px;
+        height: 40px;
+        font-size: 0.8em;
+        margin: 0 auto;
+        display: block;
+    }
+    .cup {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .cup img {
+        width: 250px;
+        height: 250px;
+    }
+    .vspleskp {
+        display: none;
+    }
+    .enjoy {
+        height: auto;
+        margin-top: 10%;
+        padding-bottom: 30px;
+    }
+    .texh h1 {
+        font-size: 2em;
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .texh p {
+        font-size: 1.1em;
+        padding: 0 15px 20px;
+        text-align: center;
+    }
+    .fotocof {
+        flex-direction: column;
+        padding: 20px;
+        gap: 25px;
+        height: auto;
+    }
+    .tabl {
+        flex-direction: column;
+        gap: 25px;
+        height: auto;
+    }
+    .lovecoff, .vesny, .coffeeee, .expresso {
+        width: 280px;
+        height: 364px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .fotocof h1 {
+        font-size: 1.4em;
+        width: 100%;
+    }
+    .fotocof h2 {
+        font-size: 1em;
+        width: 100%;
+    }
+    .fotocof p {
+        font-size: 1em;
+        width: 100%;
+    }
+    .fotocof button {
+        width: 120px;
+        height: 44px;
+        font-size: 0.8em;
+        left: 50%;
+        margin-left: -60px;
+        top: 2vh;
+    }
+    .vspleskl {
+        display: none;
+    }
+    .arew h1 {
+        font-size: 2em;
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .arew p {
+        font-size: 1.1em;
+        padding: 0 15px 20px;
+        text-align: center;
+    }
+    .tabl2 {
+        flex-direction: column;
+        padding: 30px 15px 0;
+        gap: 20px;
+        height: auto;
+    }
+    .obman {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        align-items: center;
+    }
+    .first, .medal, .cup1, .likeb {
+        width: 280px;
+        height: 284px;
+        padding: 30px 20px;
+        text-align: center;
+    }
+    .tabl2 h1 {
+        font-size: 1.4em;
+        width: 100%;
+        text-align: center;
+    }
+    .tabl2 p {
+        font-size: 1em;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .idea {
+        margin-top: 30px;
+        height: auto;
+        text-align: center;
+    }
+    .greatf h1 {
+        font-size: 1.6em;
+        height: auto;
+        padding: 15px;
+        text-align: center;
+    }
+    .greatf p {
+        font-size: 1.1em;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .greatf button {
+        width: 134px;
+        height: 44px;
+        font-size: 0.8em;
+        margin: 0 auto;
+        display: block;
+    }
+    .beanfon {
+        margin-top: 15%;
+        height: auto;
+        padding: 30px 15px;
+        background-position: center;
+    }
+    .cont {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tohave {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        text-align: center;
+        align-items: center;
+    }
+    .chan {
+        width: 100%;
+        height: auto;
+    }
+    .chan h1 {
+        width: 100%;
+        font-size: 1.8em;
+        height: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .giv p {
+        width: 100%;
+        font-size: 1em;
+        height: auto;
+        margin-bottom: 25px;
+        text-align: center;
+        line-height: 1.4;
+    }
+    .tohave button {
+        width: 134px;
+        height: 44px;
+        font-size: 0.8em;
+        margin: 0 auto;
+        display: block;
+    }
+    .cukp, .cja {
+        display: none;
+    }
+    .ourcof {
+        height: auto;
+        padding: 30px 15px;
+    }
+    .rep {
+        height: auto;
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+    }
+    .rep h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .rep p {
+        font-size: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .mlo {
+        width: 100vw;
+        margin: 20px auto;
+    }
+    .Lorem {
+        width: 280px;
+        height: auto;
+        padding: 25px 15px;
+        position: relative;
+        right: 55px;
+        z-index: 1;
+        text-align: center;
+    }
+    .lpoq {
+        width: 95%;
+        height: auto;
+    }
+    .Lorem p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .Lorem h1 {
+        font-size: 22px;
+        height: auto;
+        margin-top: 15px;
+    }
+    .Lorem h2 {
+        font-size: 15px;
+    }
+    .Lorem h3 {
+        font-size: 50px;
+        right: 35vw;
+        top: 3vh;
+    }
+    .knopka {
+        left: 0vw;
+        width: 50px;
+        height: 50px;
+        z-index: 2;
+    }
+    .knopka2 {
+        left: 71vw;
+        width: 50px;
+        height: 50px;
+        z-index: 2;
+    }
+    .subscribe {
+        height: 140vh;
+        padding: 30px 0;
+        background-position: center;
+    }
+    .sub {
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+    }
+    .ribe h1 {
+        font-size: 28px;
+        height: auto;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .ribe p {
+        font-size: 15px;
+        height: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .entere {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .entere .ent {
+        width: 280px;
+        height: 50px;
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    .entere .subsa {
+        width: 280px;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 15px;
+        left: auto;
+        position: static;
+    }
+    .pnw {
+        display: none;
+    }
+    .beae {
+        background-image: none;
+        height: auto;
+        padding: 40px 0;
+    }
+    .gho {
+        width: 100vw;
+    }
+    .aweq {
+        width: 90vw;
+        flex-direction: column;
+        margin-top: -110vh;
+        gap: 0px;
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+    .btop {
+        width: 100%;
+        height: auto;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .btop h1 {
+        font-size: 36px;
+        height: auto;
+    }
+    .btop p {
+        font-size: 12px;
+        height: auto;
+        line-height: 1.5;
+    }
+    .About, .Company, .Contact_Us {
+        width: 100%;
+        height: auto;
+        line-height: 28px;
+        text-align: left;
+    }
+    .About h2, .Company h2, .Contact_Us h2 {
+        font-size: 20px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .About p, .Company p, .Contact_Us p {
+        font-size: 15px;
+    }
+    .Contact_Us p {
+        width: 100%;
+    }
+}
+@media (min-width: 1439px) and (max-width: 1440px) {
+    .chan h1 {
+        font-size: 44px;
+    }
+    .giv p {
+        font-size: 1.5em;
+    }
+    .tohave button {
+        height: 52px;
+    }
+    .greatf h1 {
+        font-size: 42px;
+    }
+    .greatf button {
+        height: 52px;
+    }
+    .entere .subsa {
+        left: 38vw;
+        bottom: 7vh;
+    }
+    .pnw {
+        width: 100vw;
+    }
+    .aweq {
+        width: 65vw;
+    }
 }
